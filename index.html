@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UP Police Login</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta property="og:title" content="User Login Portal">
+    <meta property="og:description" content="Secure login portal for UP Police users">
+    <meta property="og:image" content="https://yourdomain.com/preview.jpg">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="https://images.news18.com/ibnkhabar/uploads/2023/01/upp.jpg">
+</head>
+
+<body>
+
+    <div class="container" onclick="changeColor(event)">
+        <label> User Login </label>
+
+        <form id="loginForm">
+            <label> Enter Name </label>
+            <input type="text" id="name" placeholder="Enter Name" required>
+
+            <label> Enter Email </label>
+            <input type="email" id="email" placeholder="Enter Email" required>
+
+            <label> Enter Password</label>
+            <input type="password" id="password" placeholder="Enter Password" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
